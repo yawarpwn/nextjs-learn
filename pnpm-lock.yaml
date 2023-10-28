@@ -15,19 +15,19 @@ dependencies:
     specifier: 20.5.7
     version: 20.5.7
   '@vercel/postgres':
-    specifier: ^0.5.0
+    specifier: 0.5.0
     version: 0.5.0
   autoprefixer:
     specifier: 10.4.15
     version: 10.4.15(postcss@8.4.31)
   bcrypt:
-    specifier: ^5.1.1
+    specifier: 5.1.1
     version: 5.1.1
   clsx:
-    specifier: ^2.0.0
+    specifier: 2.0.0
     version: 2.0.0
   next:
-    specifier: ^14.0.0
+    specifier: 14.0.0
     version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
   postcss:
     specifier: 8.4.31
@@ -45,8 +45,8 @@ dependencies:
     specifier: 5.2.2
     version: 5.2.2
   zod:
-    specifier: ^3.22.2
-    version: 3.22.4
+    specifier: 3.22.2
+    version: 3.22.2
 
 devDependencies:
   '@types/bcrypt':
@@ -1409,6 +1409,6 @@ packages:
     engines: {node: '>= 14'}
     dev: false
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@3.22.2:
+    resolution: {integrity: sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==}
     dev: false
