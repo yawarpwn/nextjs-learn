@@ -12,8 +12,8 @@ const users = [
 const customers = [
   {
     id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
-    name: 'Delba de Oliveira',
-    email: 'delba@oliveira.com',
+    name: 'JUan perez',
+    email: 'de3399lba@oliveieoa003ra.com',
     image_url: '/customers/delba-de-oliveira.png',
   },
   {
@@ -54,14 +54,14 @@ const customers = [
   },
   {
     id: '126eed9c-c90c-4ef6-a4a8-fcf7408d3c66',
-    name: 'Emil Kowalski',
-    email: 'emil@kowalski.com',
+    name: 'Neyda Kazay Kowalski',
+    email: 'emil@kowa-nrnwqr4lkm4lski.com',
     image_url: '/customers/emil-kowalski.png',
   },
   {
     id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
-    name: 'Amy Burns',
-    email: 'amy@burns.com',
+    name: 'Raquel te amo Burns',
+    email: 'amyteamoeljfj@burns.com',
     image_url: '/customers/amy-burns.png',
   },
   {
