@@ -1,6 +1,7 @@
 'use client';
 
 import { CustomerField, InvoiceForm } from '@/app/lib/definitions';
+import { useFormState } from 'react-dom';
 import {
   CheckIcon,
   ClockIcon,
@@ -18,8 +19,15 @@ export default function EditInvoiceForm({
   invoice: InvoiceForm;
   customers: CustomerField[];
 }) {
+
+const initialState = {
+  message: null,
+  errors: {}
+}
+  const [state, dispatch] = useFormState(updateInvoice, initialState)
+  console.log('state',state)
   return (
-    <form action={updateInvoice}>
+    <form action={dispatch}>
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
         {/* Invoice ID */}
         <input type="hidden" name="id" value={invoice.id} />
